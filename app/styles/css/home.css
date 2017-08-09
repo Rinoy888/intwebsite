@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: #eee;
+  overflow: hidden;
+  background-image: url("../../images/homebanner.jpg");
+  background-size: cover; }
+  .banner .contact {
+    width: 100%;
+    height: 3vh; }
+    .banner .contact .c_no {
+      float: right;
+      font-family: Montserrat;
+      font-size: 12px;
+      color: #fff;
+      line-height: 3vh; }
+    .banner .contact .email {
+      float: right;
+      font-family: Montserrat;
+      font-size: 12px;
+      color: #fff;
+      margin-right: 10vw;
+      margin-left: 1vw;
+      line-height: 3vh; }
+  .banner .ban_left {
+    width: 50%;
+    height: 90%;
+    float: left; }
+    .banner .ban_left .banr_bgbox {
+      width: 25vw;
+      height: 25vh;
+      position: absolute;
+      left: 18vw;
+      top: 20vh;
+      border: 5px solid rgba(255, 255, 255, 0.05); }
+    .banner .ban_left .banl_content {
+      width: 100%;
+      height: 50vh;
+      margin-top: 25vh; }
+      .banner .ban_left .banl_content .ban_mainhead {
+        font-family: Montserrat;
+        font-size: 45px;
+        font-weight: 600;
+        color: #c83030;
+        margin-left: 5vw; }
+      .banner .ban_left .banl_content .ban_subhead {
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 200;
+        color: #f9f9ff;
+        margin-left: 5vw;
+        margin-top: 1vh;
+        word-spacing: 5px; }
+  .banner .ban_right {
+    width: 50%;
+    height: 90%;
+    float: left; }
+    .banner .ban_right .banr_screenbox {
+      width: 35vw;
+      height: 44vh;
+      position: absolute;
+      top: 27vh;
+      margin-left: 6vw; }
+      .banner .ban_right .banr_screenbox .banrsb_text {
+        font-family: Montserrat;
+        font-size: 38px;
+        color: #fff;
+        margin-left: 6vw;
+        margin-top: 12vh; }
+        .banner .ban_right .banr_screenbox .banrsb_text #banrsb_head {
+          font-weight: 100;
+          font-size: 38px;
+          color: rgba(255, 255, 255, 0.7);
+          letter-spacing: 5px; }
+        .banner .ban_right .banr_screenbox .banrsb_text #banrsb_sub {
+          font-weight: 500;
+          margin-left: 5vw;
+          margin-top: 2vh;
+          color: #c83030; }
+      .banner .ban_right .banr_screenbox .banrsb_btn {
+        margin-left: 25vh;
+        margin-top: 5vh;
+        width: 10vw;
+        height: 5vh;
+        border-radius: 5px;
+        background: #c83030;
+        font-family: Montserrat;
+        color: #fff;
+        font-size: 14px;
+        padding: 11px 0px 0px 35px; }
+      .banner .ban_right .banr_screenbox .banrsb_btn:hover {
+        cursor: pointer; }
+    .banner .ban_right .banr_lapbox {
+      width: auto;
+      height: 100%; }
+      .banner .ban_right .banr_lapbox .banr_lap {
+        margin-top: 20vh; }
+
+/*# sourceMappingURL=home.css.map */

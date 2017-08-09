@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+
+$break-small: 320px;
+$break-medium: 720px;
+$break-large: 1200px;
+
+
+@include font-face("mont", fonts/Montserrat-Regular, bold, italic);
+
+
+

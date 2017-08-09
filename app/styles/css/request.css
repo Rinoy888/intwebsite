@@ -1,0 +1,48 @@
+.btn {
+  width: 100px;
+  height: 50px;
+  background: #3bf9da; }
+
+.modal-box {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 7.5vh;
+  left: 0;
+  z-index: 3000; }
+  .modal-box .modal {
+    width: 60vw;
+    height: 60vh;
+    background: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: relative;
+    top: 14vh;
+    overflow: hidden;
+    z-index: 4000; }
+    .modal-box .modal .recharts-wrapper .recharts-y-axis .recharts-cartesian-axis-tick text {
+      font-family: Montserrat;
+      font-size: 12px;
+      font-weight: 100; }
+    .modal-box .modal .recharts-wrapper .recharts-x-axis .recharts-cartesian-axis-tick text {
+      font-family: Montserrat;
+      font-size: 12px;
+      font-weight: 100; }
+    .modal-box .modal .modalheader {
+      width: 100%;
+      height: 3.5vh;
+      background: rgba(45, 180, 151, 0.49); }
+      .modal-box .modal .modalheader .title {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 400;
+        color: #305b7b;
+        float: left;
+        padding: 5px 0px 0px 20px; }
+      .modal-box .modal .modalheader .close {
+        float: right;
+        padding: 5px;
+        cursor: pointer; }
+
+/*# sourceMappingURL=request.css.map */
